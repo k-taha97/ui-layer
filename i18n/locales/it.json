@@ -1,0 +1,72 @@
+{
+  "layers": {
+    "primevue": {
+      "composables": {
+        "toast": {
+          "error": {
+            "title": "Errore",
+            "message": "Impossibile eseguire la richiesta"
+          },
+          "success": {
+            "title": "Operazione eseguita",
+            "message": "L'operazione è stata eseguita con successo"
+          }
+        }
+      },
+      "components": {
+        "dropdown": {
+          "empty": "Nessun elemento presente."
+        },
+        "table": {
+          "loading": "Caricamente in corso...",
+          "empty": "Nessun elemento presente.",
+          "functions": {
+            "download": {
+              "csv": "Scarica il CSV"
+            }
+          }
+        },
+        "inputs": {
+          "password": "Password",
+          "email": "Email",
+          "name": "Name",
+          "full-name": "Full Name",
+          "sponsor-code": "Codice sponsor",
+          "optional": "(Optional)",
+          "old-password": "Vecchio Password",
+          "new-password": "Nuovo Password",
+          "confirm-password": "Confermare Password",
+          "search": "Ricerca",
+          "phone": "Telefono",
+          "nationality": "Nazionalità",
+          "phone-or-email": "Telefono o e-mail"
+        },
+        "buttons": {
+          "submit": "Invia",
+          "go-home": "Vai alla pagina iniziale",
+          "next": "Avanti",
+          "verify": "Verifica",
+          "language": "Lingua dell'applicazione",
+          "save": "Risparmiare",
+          "load-more": "Per saperne di più",
+          "select": "Selezionare",
+          "confirm": "Confermare",
+          "back": "Indietro"
+        },
+        "theme": {
+          "button": {
+            "title": "Seleziona il tema"
+          },
+          "dark": "Scuro",
+          "light": "Chiaro",
+          "system": "Sistema"
+        },
+        "language": {
+          "button": {
+            "title": "Seleziona la lingua"
+          }
+        }
+      }
+    }
+  }
+}

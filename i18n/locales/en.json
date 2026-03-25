@@ -1,0 +1,72 @@
+{
+  "layers": {
+    "primevue": {
+      "composables": {
+        "toast": {
+          "error": {
+            "title": "Error",
+            "message": "The request could not be executed"
+          },
+          "success": {
+            "title": "Operation performed",
+            "message": "The operation was performed successfully"
+          }
+        }
+      },
+      "components": {
+        "dropdown": {
+          "empty": "No items are found."
+        },
+        "table": {
+          "loading": "Loading...",
+          "empty": "No items are found.",
+          "functions": {
+            "download": {
+              "csv": "Download CSV"
+            }
+          }
+        },
+        "inputs": {
+          "password": "Password",
+          "email": "Email",
+          "name": "Name",
+          "full-name": "Full Name",
+          "sponsor-code": "Sponsor Code",
+          "optional": "(Optional)",
+          "old-password": "Old Password",
+          "new-password": "New Password",
+          "confirm-password": "Confirm Password",
+          "search": "Search",
+          "phone": "Phone",
+          "nationality": "Nationality",
+          "phone-or-email": "Phone or Email"
+        },
+        "buttons": {
+          "submit": "Submit",
+          "go-home": "Go to Home",
+          "next": "Next",
+          "verify": "Verify",
+          "language": "App Language",
+          "save": "Save",
+          "load-more": "Load More",
+          "select": "Select",
+          "confirm": "Confirm",
+          "back": "Back"
+        },
+        "theme": {
+          "button": {
+            "title": "Select a theme"
+          },
+          "dark": "Dark",
+          "light": "Light",
+          "system": "System"
+        },
+        "language": {
+          "button": {
+            "title": "Select the language"
+          }
+        }
+      }
+    }
+  }
+}

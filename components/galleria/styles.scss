@@ -1,0 +1,11 @@
+.p-carousel-next-button {
+  position: absolute !important;
+  right: 0 !important;
+  color: black;
+}
+.p-carousel-prev-button {
+  position: absolute !important;
+  left: 0 !important;
+  color: black;
+  z-index: 20;
+}
