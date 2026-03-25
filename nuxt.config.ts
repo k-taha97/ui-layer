@@ -27,22 +27,15 @@ export default defineNuxtConfig({
     join(currentDir, 'assets/index.scss'),
   ],
 
-  i18n: {
-    langDir: 'locales',
-    locales: [
-      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
-      { code: 'it', language: 'it-IT', name: 'Italiano', file: 'it.json' },
-    ],
-    strategy: 'no_prefix',
+  postcss: {
+    plugins: {
+      '@tailwindcss/postcss': {},
+      'autoprefixer': {},
+    },
   },
 
   primevue: {
-    usePrimeVue: true,
     options: {
-      unstyled: false,
-      ripple: true,
-      inputStyle: 'outlined',
-      inputVariant: 'outlined',
       theme: {
         preset: Aura,
         options: {
@@ -66,11 +59,7 @@ export default defineNuxtConfig({
     configPath: join(currentDir, 'tailwind.config.ts'),
   },
 
-  vite: {
-    server: {
-      watch: {
-        ignored: ['**/node_modules/**', '**/.nuxt/**'],
-      },
-    },
-  },
+  components: [
+    { path: join(currentDir, 'components'), pathPrefix: false },
+  ],
 })
