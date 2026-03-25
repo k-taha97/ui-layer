@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   ],
 
   alias: {
-    '@ui': currentDir,
+  '@ui': join(currentDir, './'),
   },
 
   colorMode: {
@@ -55,7 +55,7 @@ export default defineNuxtConfig({
 
   tailwindcss: {
     exposeConfig: true,
-    configPath: join(currentDir, 'tailwind.config.ts'),
+    configPath: join(currentDir, 'tailwind.config.js'),
   },
 
   components: [
