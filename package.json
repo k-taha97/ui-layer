@@ -16,8 +16,8 @@
     "primevue": "^4.4.1"
   },
   "devDependencies": {
-    "@types/node": "catalog:current",
-    "nuxt": "catalog:current",
-    "typescript": "catalog:current"
+    "autoprefixer": "catalog:current",
+    "postcss": "catalog:current",
+    "tailwindcss": "catalog:current"
   }
 }
