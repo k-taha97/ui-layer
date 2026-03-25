@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   ],
 
   alias: {
-  '@ui': join(currentDir, './'),
+    '@ui': join(currentDir, './'),
   },
 
   colorMode: {
@@ -61,4 +61,8 @@ export default defineNuxtConfig({
   components: [
     { path: join(currentDir, 'components'), pathPrefix: false },
   ],
+
+  build: {
+    transpile: ['primevue'],
+  },
 })
