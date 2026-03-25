@@ -17,8 +17,8 @@
     "tailwindcss": "^3.0.0"
   },
   "devDependencies": {
-    "autoprefixer": "catalog:current",
-    "postcss": "catalog:current",
-    "tailwindcss": "catalog:current"
+    "autoprefixer": "catalog:",
+    "postcss": "catalog:",
+    "tailwindcss": "catalog:"
   }
 }
