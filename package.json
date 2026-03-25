@@ -1,5 +1,5 @@
 {
-  "name": "primevue-layer",
+  "name": "@my-nuxt/primevue-layer",
   "type": "module",
   "version": "0.0.2",
   "private": true,
