@@ -14,11 +14,14 @@
     "primeicons": "^7.0.0",
     "primelocale": "^2.1.7",
     "primevue": "^4.4.1",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "vee-validate": ">=4.15.0"
   },
   "devDependencies": {
     "@types/node": "catalog:current",
+    "@vee-validate/zod": "catalog:current",
     "nuxt": "catalog:current",
-    "typescript": "catalog:current"
+    "typescript": "catalog:current",
+    "vee-validate": "catalog:current"
   }
 }
