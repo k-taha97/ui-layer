@@ -17,10 +17,6 @@ export default defineNuxtConfig({
     '@ui': join(currentDir, './'),
   },
 
-  colorMode: {
-    classSuffix: '',
-  },
-
   css: [
     'primeicons/primeicons.css',
     join(currentDir, 'assets/index.scss'),
