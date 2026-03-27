@@ -1,9 +1,8 @@
-import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
-import Aura from '@primeuix/themes/aura';
-import { defineNuxtConfig } from 'nuxt/config';
+import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { defineNuxtConfig } from 'nuxt/config'
 
-const currentDir = dirname(fileURLToPath(import.meta.url));
+const currentDir = dirname(fileURLToPath(import.meta.url))
 
 export default defineNuxtConfig({
   modules: [
@@ -36,7 +35,7 @@ export default defineNuxtConfig({
   primevue: {
     options: {
       theme: {
-        preset: Aura,
+        preset: 'Aura',
         options: {
           prefix: 'p',
           darkModeSelector: '.dark',
@@ -56,7 +55,7 @@ export default defineNuxtConfig({
   tailwindcss: {
     exposeConfig: true,
   },
-  
+
   components: [
     { path: join(currentDir, 'components'), pathPrefix: false },
   ],
@@ -64,4 +63,4 @@ export default defineNuxtConfig({
   build: {
     transpile: ['primevue'],
   },
-});
+})
