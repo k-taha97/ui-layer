@@ -57,6 +57,6 @@ export default defineNuxtConfig({
   ],
 
   build: {
-    transpile: ['primevue', 'primeicons'],
+    transpile: ['primevue'],
   },
 })
