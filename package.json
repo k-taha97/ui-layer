@@ -1,7 +1,7 @@
 {
   "name": "@my-nuxt/primevue-layer",
   "type": "module",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "private": true,
   "peerDependencies": {
     "@nuxtjs/color-mode": "^3.5.2",
