@@ -49,7 +49,7 @@ export default defineNuxtConfig({
   },
 
   components: [
-    { path: join(currentDir, 'components'), pathPrefix: false },
+    { path: join(currentDir, 'components'), pathPrefix: false, extensions: ['.vue'], global: true },
   ],
 
   build: {
