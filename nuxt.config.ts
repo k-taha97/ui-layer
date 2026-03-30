@@ -42,10 +42,6 @@ export default defineNuxtConfig({
         },
       },
     },
-    components: {
-      prefix: 'Prime',
-      include: '*',
-    },
   },
 
   tailwindcss: {
